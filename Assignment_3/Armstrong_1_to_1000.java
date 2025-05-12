@@ -7,16 +7,16 @@ public class Armstrong_1_to_1000 {
             int num = i;
             int temp = num;
             int sum = 0;
-            int digit = 0;
+            int power = 0;
 
             while(temp!=0){
                 temp = temp / 10;
-                digit++;
+                power++;
             }
             temp = num;
             while (num != 0) {
                 int d = num % 10;
-                sum += Math.pow(d,digit);
+                sum += Math.pow(d,power);
                 num = num / 10;
             }
             if (sum == temp) {
