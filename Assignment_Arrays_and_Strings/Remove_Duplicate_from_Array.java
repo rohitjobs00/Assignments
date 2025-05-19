@@ -53,5 +53,30 @@ public class Remove_Duplicate_from_Array {
                     }
          */
 
+/*
+                int[] arr = {3, 1, 2, 2, 4, 3, 5};
+                Arrays.sort(arr);  // Step 1: Sort the array
+
+                int[] temp = new int[arr.length];
+                int j = 0;
+
+                // Step 2: Keep only unique elements
+                for (int i = 0; i < arr.length - 1; i++) {
+                    if (arr[i] != arr[i + 1]) {
+                        temp[j++] = arr[i];
+                    }
+                }
+
+                // Add the last element
+                temp[j++] = arr[arr.length - 1];
+
+                // Print result
+                System.out.print("Array after removing duplicates: ");
+                for (int i = 0; i < j; i++) {
+                    System.out.print(temp[i] + " ");
+                }
+
+*/
+
     }
 }
