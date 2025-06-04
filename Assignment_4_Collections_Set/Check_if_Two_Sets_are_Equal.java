@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class CHeck_if_Two_Sets_are_Equal {
+public class Check_if_Two_Sets_are_Equal {
     public static void main(String[] args) {
         HashSet<Integer> SetA = new HashSet<>();
         SetA.addAll(Arrays.asList(1,2,3));
