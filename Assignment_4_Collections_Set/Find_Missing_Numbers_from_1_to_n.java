@@ -5,7 +5,10 @@ import java.util.Set;
 public class Find_Missing_Numbers_from_1_to_n {
     public static void main(String[] args) {
         Set<Integer> hs1 = new HashSet<>();
-        hs1.addAll(Arrays.asList(1,2,3,4,5,6));
+        int n=6;
+        for(int i=1; i<=n; i++){
+            hs1.add(i);
+        }
 
         int [] arr = {1,2,4,6};
         System.out.print("Array is:");
