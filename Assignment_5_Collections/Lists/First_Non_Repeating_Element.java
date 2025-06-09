@@ -1,3 +1,10 @@
+/*
+4. First Non-Repeating Element in an ArrayList.
+Input: [3, 5, 3, 4, 5, 6]
+Expected Output: 4
+Hint: Use HashMap to count frequencies, then iterate list.
+ */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;

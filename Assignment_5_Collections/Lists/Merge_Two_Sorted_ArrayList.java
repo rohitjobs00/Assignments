@@ -1,3 +1,11 @@
+/*
+6. Merge Two Sorted ArrayLists into One Sorted ArrayList.
+Input: arraylist_1 = [1, 3, 5, 7] ,
+ arraylist_2 = [2, 4, 6, 8]
+ Expected Output:  [1, 2, 3, 4, 5, 6, 7, 8]
+Hint: Use two-pointer technique.
+ */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 

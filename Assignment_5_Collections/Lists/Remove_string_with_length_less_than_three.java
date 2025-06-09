@@ -1,3 +1,9 @@
+/*
+8. Remove All Strings with Length < 3 .
+Input:  ["a", "ab", "abc", "java", "is", "fun", "ok", "yes"]
+Expected Output: [abc, java, fun, yes]
+ */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;

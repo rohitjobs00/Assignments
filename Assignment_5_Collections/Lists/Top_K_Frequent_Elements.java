@@ -1,3 +1,12 @@
+/*
+ 3. Top K Frequent Elements using ArrayList & HashMap.
+Input: List = [4, 4, 1, 2, 2, 2, 3, 3],
+k = 2
+Expected Output:  2 → 3 times	4 → 2 times
+Hint: Count frequencies using HashMap, sort by values.
+
+ */
+
 import java.util.*;
 
 public class Top_K_Frequent_Elements {

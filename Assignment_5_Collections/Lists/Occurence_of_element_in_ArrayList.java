@@ -1,3 +1,10 @@
+/*
+9. Count Occurrences of Each Element in an ArrayList.
+Input: ["apple", "banana", "apple", "orange", "banana", "apple"]
+Expected Output: apple → 3	banana → 2   orange → 1
+Hint: Use HashMap to store frequencies.
+ */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
